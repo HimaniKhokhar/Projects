@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(0, 26, 255, 0.425);
+}
+
+.imgbox{
+    background-image: url("download.jpg");
+    position: relative;
+    top:7px;
+    left:7px;
+    height:135px;
+    width:135px;
+    cursor:pointer;
+}
+.whitebox{
+    display:inline-block;
+    height:150px;
+    width:150px;
+    margin:10px;
+    background-color : black;
+}
+.hold{
+    border:solid red 4px;
+}
+.hide{
+    display:none;
+}
+.dashed{
+    background-color:rgba(240, 12, 171, 0.712);
+    border-style: dashed;
+}
