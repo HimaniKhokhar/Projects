@@ -1,0 +1,19 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    height:500px;
+    position: relative;
+    padding:10px;
+}
+
+.contact::after{
+    content: "";
+    background-image: url("451_REpWIE1BUiAwOTYtMDI.jpg") ;
+    background-position:center;
+    background-size: cover;
+    height:inherit;
+    z-index:-1;
+    position: absolute;
+    width:100%; 
+    opacity: 40%;
+}

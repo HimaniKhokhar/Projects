@@ -1,0 +1,55 @@
+.m-auto{
+    margin:auto
+}
+.max-width-1{
+    max-width: 70%;;
+}
+.max-width-2{
+    max-width: 55%;
+}
+.content-left {
+    font-size: 15px;
+    color:black;
+    width:60%;
+}
+.content-right img{
+    height:180px;
+    border-radius: 200px;
+}
+
+.home-article-content{
+    font-size: 15px;
+    padding:15px;
+}
+.my-2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.form-box input,textarea{
+    margin:5px;
+    padding:5px 20px;
+    width:400px;
+    border-radius: 30px;
+    border:1px solid orange;
+}
+.form-box textarea:hover{
+    border:solid orange;
+}
+.form-box input:hover{
+    border:solid orange;
+}
+.year-box h3{
+    font-weight: bolder;
+}
+.blogpost-meta{
+    /* background: chartreuse; */
+    padding:5px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.author-info div{
+    margin:5px;
+}
+
